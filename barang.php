@@ -59,7 +59,7 @@
                 <td><?= $item["nama_barang"]; ?></td>
                 <td><?= $item["stok"]; ?></td>
                 <td><?= $item["Status"]; ?></td>
-                <td><a href="#">Edit</a></td>
+                <td><a href="edit_barang.php?id=<?=$item['id']?>">Edit</a></td>        
                 <td><a href="#">Hapus</a></td>
             </tr>
 
